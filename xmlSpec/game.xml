@@ -1,0 +1,154 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Sriram, Ashwin - Fight of PMs!!</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<frameMax>300</frameMax>
+<fpsAveragedOver>200</fpsAveragedOver>
+<username>smadhiv</username>
+
+<view>
+  <width>1200</width>
+  <height>720</height>
+</view>
+
+<world>
+  <width>1200</width>
+  <height>720</height>
+</world>
+
+<layer1>
+  <src x="0" y="0"/>
+  <file>images/layer1.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>5</factor>
+  <width>640</width>
+  <height>480</height>
+  <loc x="320" y="240"/>
+  <speed x="250" y="250"/>
+  <transparency>false</transparency>
+</layer1>
+  
+<layer2>
+  <file>images/layer2.bmp</file>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</layer2>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<fighter1>
+  <file>images/fighter1.bmp</file>
+  <startLoc x="240" y="240"/>
+  <frames>30</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-15</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>25</size>
+    <distance>200</distance>	
+  </chunk>
+  <transparency>true</transparency>
+</fighter1>
+  
+<fighter3>
+  <file>images/fighter1.bmp</file>
+  <startLoc x="600" y="240"/>
+  <frames>30</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-15</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>25</size>
+    <distance>200</distance>	
+  </chunk>
+  <transparency>true</transparency>
+</fighter3>
+   
+ <plane>
+  <file>images/plane.bmp</file>
+  <startLoc x="420" y="20"/>
+  <frames>2</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-45</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>25</size>
+    <distance>100</distance>	
+  </chunk>
+  <transparency>true</transparency>
+</plane>
+
+<numberOfOrbs>20</numberOfOrbs>
+<redorb>
+  <file>images/tomato.bmp</file>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <src x="0" y="0"/>
+  <width>32</width>
+  <height>32</height>
+  <loc x="620" y="0"/>
+  <speed x="250" y="250"/>
+  <transparency>true</transparency>
+</redorb>
+  
+<projectiles>
+  <file>images/tomato.bmp</file>
+  <startLoc x="240" y="240"/>
+  <frames>1</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <numberOfProjectiles>5</numberOfProjectiles>
+  <chunk>
+    <size>5</size>
+    <distance>20</distance>	
+  </chunk>
+</projectiles>
+
+<cat>
+  <file>images/cat.bmp</file>
+  <startLoc x="120" y="420"/>
+  <frames>8</frames>
+  <frameInterval>20</frameInterval>
+  <height>-145</height>
+  <speedX>-145</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</cat>
+<numberOfBirds>8</numberOfBirds>
+<panch>
+  <file>images/panch.bmp</file>
+<cushion>50</cushion>
+  <startLoc x="20" y="120"/>
+  <scale min="0.5" max="1.5"/>
+  <src x="0" y="100"/>
+  <frames>5</frames>
+  <frameInterval>20</frameInterval>
+  <width>42</width>
+  <height>34</height>
+  <speedX>-145</speedX>
+  <speedY>0</speedY>
+  <loc x="620" y="0"/>
+  <speed x="250" y="250"/>
+  <transparency>true</transparency>
+</panch>
+</GameData>
+
