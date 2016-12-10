@@ -1,12 +1,11 @@
-Name: Sriram Madhivanan, Ashwin Parivallal
-Clemson Email Address: smadhiv@clemson.edu, apariva@clemson.edu
-Course number: 6160
-Project no: 6 
-Project due date: 12/03/2016
-Project Description: This project is a fighting game with two player or player vs AI options. AI can be toggled for player2 by pressing j. Attack is done by punching and throwing projectile. Defence is taken care by crouching and using hands as shield. The game ends when health becomes zero and the loser explodes reappearing only when reset 'r' is pressed.
-Extra Contribution: The images used except cat and bird were drawn by me. All non-movement postures of player are relevent to the game and help him avoid specific source of damages. Usage of former Indian PM as player makes it more interesting when compared to generic fighting sprites. I have also implemented a very touch AI to beat and I am confident that it will be challenging enough for many tries.
-Problems with this project: Handling the specific issue of simultaneous long key presses was very challenging and time consuming as SDL_GetKeyState doesn't help. I wanted to use observer pattern and using it for my fingting game was non-trivial.
-My Contribution: I implemented AI and god mode.
-
+This project is a fighting game with two player or player vs AI options. 
+AI can be toggled for player2 by pressing j. 
+Attack is done by punching and throwing projectile. 
+Defence is taken care by crouching and using hands as shield. 
+The game ends when health becomes zero and the loser explodes reappearing only when reset 'r' is pressed.
+The images used except cat and bird were drawn by me. 
+All non-movement postures of player are relevent to the game and help him avoid specific source of damages. 
+Usage of former Indian PM as player makes it more interesting when compared to generic fighting sprites. 
+I have also implemented a very touch AI to beat and I am confident that it will be challenging enough for many tries.
 CAT Sprite : www.canspockphoto.com
 other images : original work
