@@ -1,4 +1,4 @@
-This project is a fighting game with two player or player vs AI options. 
+This project is a fighting game with two player or player vs AI options made in C++ using SDL1.2. 
 AI can be toggled for player2 by pressing j. 
 Attack is done by punching and throwing projectile. 
 Defence is taken care by crouching and using hands as shield. 
